@@ -4,15 +4,16 @@
     "description": "A demo application for integrating Audiofork with Google Cloud Speech-to-Text",
     "main": "app.js",
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     },
     "author": "Your Name",
     "license": "MIT",
     "dependencies": {
-      "@google-cloud/speech": "^4.0.3",
-      "http": "^0.0.1-security",
-      "stream": "0.0.2",
-      "url": "^0.11.0",
-      "ws": "^8.3.3"
+        "@google-cloud/speech": "^4.10.2",
+        "dotenv": "^16.4.5",
+        "http": "^0.0.1-security",
+        "stream": "0.0.2",
+        "url": "^0.11.0",
+        "ws": "^8.3.3"
     }
 }
